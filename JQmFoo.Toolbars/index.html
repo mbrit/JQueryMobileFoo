@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Restful Service</title> 
+	
+		<!-- makes the magic happen... -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+		<!-- normal stuff -->
+		<link rel="stylesheet" href="styles/jquery.mobile-1.0.1.min.css" />
+		<script src="scripts/jquery-1.7.1.min.js"></script>
+		<script src="scripts/jquery.mobile-1.0.1.min.js"></script>
+		<script src="scripts/knockout-2.0.0.js"></script>
+		<script src="scripts/navbar.js"></script>
+	
+	</head> 
+
+	<body> 
+
+		<div id="page1" data-role="page" class="page"> 
+			<div data-role="header">Page 1</div> 
+			<div data-role="content">
+				Welcome to page 1!
+			</div> 
+			
+			<div data-role="footer" data-position="fixed"> 
+				<div data-role="navbar" id="navbar">
+					<ul>
+						<li><a href="#page1" class="ui-btn-active" data-icon="home">One</a></li>
+						<li><a href="#page2" data-icon="grid">Two</a></li>
+						<li><a href="#page3" data-icon="star">Three</a></li>
+						<li><a href="#page4" data-icon="gear">Four</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+
+		<div id="page2" data-role="page" class="page"> 
+			<div data-role="header">Page 2</div> 
+			<div data-role="content">
+				I am page 2!
+			</div> 
+			<div data-role="footer" data-position="fixed"> 
+			</div>
+		</div>
+
+		<div id="page3" data-role="page" class="page"> 
+			<div data-role="header">
+				Page 3
+			</div> 
+			<div data-role="content">
+				I am page 3!
+			</div> 
+			<div data-role="footer" data-position="fixed"> 
+			</div>
+		</div>
+
+		<div id="page4" data-role="page" class="page"> 
+			<div data-role="header">
+			
+				<a href="#" id="cancelbutton" data-icon="delete">Cancel</a>
+				<h1>Page 4</h1>
+				<a href="#" id="savebutton" data-icon="check" data-theme="b">Save</a>
+				
+			</div> 
+			<div data-role="content">
+				I am page 4!
+			</div> 
+			<div data-role="footer" data-position="fixed"> 
+			</div>
+		</div>
+	
+	</body>
+
+</html>

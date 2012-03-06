@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Restful Service</title> 
+	
+		<!-- makes the magic happen... -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+		<!-- normal stuff -->
+		<link rel="stylesheet" href="styles/jquery.mobile-1.0.1.min.css" />
+		<script src="scripts/jquery-1.7.1.min.js"></script>
+		<script src="scripts/jquery.mobile-1.0.1.min.js"></script>
+		<script src="scripts/knockout-2.0.0.js"></script>
+		<script src="scripts/restful.js"></script>
+	
+	</head> 
+
+	<body> 
+
+		<div id="main" data-role="page"> 
+			<div data-role="header">Register your account</div> 
+			<div data-role="content">
+				
+				<fieldset id="registerform">
+
+					<div data-role="fieldcontain">
+						<label for="username">Username</label>
+						<input type="text" id="username" data-bind="value:username" />
+					</div>
+					<div data-role="fieldcontain">
+						<label>First name</label>
+						<input type="text" id="firstname" data-bind="value:firstName" />
+					</div>
+					
+					<div data-role="fieldcontain">
+						<label>Last name</label>
+						<input type="text" id="lastname" data-bind="value:lastName" />
+					</div>
+					<div data-role="fieldcontain">
+						<label>Email</label>
+						<input type="text" id="email" data-bind="value:email" />
+					</div>
+					<div data-role="fieldcontain">
+						<label>Password</label>
+						<input type="password" id="password" data-bind="value:password" />
+					</div>
+					<div data-role="fieldcontain">
+						<label>Confirm</label>
+						<input type="password" id="confirm" data-bind="value:confirm" />
+					</div>
+					<div data-role="fieldcontain">
+						<input type="button" id="registerbutton" value="Register Account">
+					</div>
+
+				</fieldset>
+				
+			</div> 
+			<div data-role="footer">jQuery Mobile Foo</div> 
+		</div>
+	
+	</body>
+
+</html>
+

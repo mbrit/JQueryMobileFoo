@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Reports</title> 
+	
+		<!-- makes the magic happen... -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+		<!-- normal stuff -->
+		<link rel="stylesheet" href="styles/jquery.mobile-1.0.1.min.css" />
+		<script src="scripts/jquery-1.7.1.min.js"></script>
+		<script src="scripts/jquery.mobile-1.0.1.min.js"></script>
+		<script src="scripts/knockout-2.0.0.js"></script>
+		<script src="scripts/common.js"></script>
+		<script src="scripts/logon.js"></script>
+		<script src="scripts/list.js"></script>
+		<script src="scripts/detail.js"></script>
+	
+	</head> 
+
+	<body> 
+
+		<div id="logon" data-role="page"> 
+			<div data-role="header">Logon</div> 
+			<div data-role="content">
+								
+				<fieldset>
+					
+					<div data-role="fieldcontain">
+						<label for="username">Username</label>
+						<input type="text" id="username" data-bind="value:username" />
+					</div>
+					<div data-role="fieldcontain">
+						<label>Password</label>
+						<input type="password" id="password" data-bind="value:password" />
+					</div>
+					<div data-role="fieldcontain">
+						<input type="button" id="logonbutton" value="Logon">
+					</div>
+					
+				</fieldset>
+								
+			</div> 
+			<div data-role="footer">jQuery Mobile Foo</div> 
+		</div>
+
+		<div id="list" data-role="page"> 
+			<div data-role="header">Your Reports</div> 
+			<div data-role="content">
+								
+				<ul id="thelist" data-role="listview" data-theme="g" data-bind="foreach:reports">
+					<li><a href="#" data-bind="text:title,attr:{'data-id':_id}" class="detaillink"></a></li>
+				</ul>
+								
+			</div> 
+			<div data-role="footer">jQuery Mobile Foo</div> 
+		</div>
+
+		<div id="detail" data-role="page"> 
+			<div data-role="header">Detail</div> 
+			<div data-role="content">
+								
+				<input type="button" id="backbutton" value="Back" />
+
+				<fieldset>
+
+					<div data-role="fieldcontain">
+						<label for="title">Title</label>
+						<div id="title" data-bind="text:title"></div>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="description">Description</label>
+						<div id="description" data-bind="text:description"></div>
+					</div>
+
+				</fieldset>
+								
+			</div> 
+			<div data-role="footer">jQuery Mobile Foo</div> 
+		</div>
+	
+	</body>
+
+</html>
+
