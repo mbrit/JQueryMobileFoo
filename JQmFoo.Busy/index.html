@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-		<title>Dialogs</title> 
+		<title>Busy indicator</title> 
 	
 		<!-- makes the magic happen... -->
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -11,7 +11,7 @@
 		<script src="scripts/jquery-1.7.1.min.js"></script>
 		<script src="scripts/jquery.mobile-1.0.1.min.js"></script>
 		<script src="scripts/knockout-2.0.0.js"></script>
-		<script src="scripts/dialogs.js"></script>
+		<script src="scripts/busy.js"></script>
 	
 	</head> 
 
@@ -19,28 +19,14 @@
 
 		<div id="main" data-role="page"> 
 			
-			<div data-role="header">Dialogs</div> 
+			<div data-role="header">Busy</div> 
 			<div data-role="content">			
 			
-				Hello. This is the main page.
-			
-				<a href="#mydialog" data-role="button" 
-						data-rel="dialog">Show me a Dialog!</a>
+				<input type="button" id="showbusybutton" value="I'm busy!" data-transition="none" />
+				<input type="button" id="showverybusybutton" value="I'm very busy!" data-transition="none" />
 
 			</div>
 		
-		</div>
-
-		<div id="mydialog" data-role="dialog">
-
-			<div data-role="header">
-				<h1>My dialog</h1>
-			</div>
-
-			<div data-role="content">
-				<p>Great! We're in a dialog!</p>
-				<a href="#" data-role="button" data-rel="back">Close</a>    
-			</div>
 		</div>
 
 	</body>

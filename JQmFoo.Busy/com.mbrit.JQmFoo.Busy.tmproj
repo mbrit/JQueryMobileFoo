@@ -8,7 +8,7 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T13:25:52Z</date>
+			<date>2012-03-06T13:25:55Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -30,9 +30,9 @@
 		</dict>
 		<dict>
 			<key>filename</key>
-			<string>scripts/dialogs.js</string>
+			<string>scripts/busy.js</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T13:25:53Z</date>
+			<date>2012-03-06T13:25:59Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -44,6 +44,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{351, 83}, {1104, 806}}</string>
+	<string>{{333, 75}, {1104, 806}}</string>
 </dict>
 </plist>

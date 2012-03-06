@@ -10,10 +10,10 @@ function initialize() {
 		
 	// subscribe...
 	$("#photo").live("swiperight", function(e) { 
-		swipe(1);
+		alert("Right!");
 	});
 	$("#photo").live("swipeleft", function(e) { 
-		swipe(-1);
+		alert("Left!");
 	});
 	
 	// show a picture...
