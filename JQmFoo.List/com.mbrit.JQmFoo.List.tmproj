@@ -2,21 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>scripts/list.js</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T14:04:20Z</date>
+			<date>2012-03-12T19:35:40Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>scripts/jquery-1.7.1.min.js</string>
 			<key>lastUsed</key>
-			<date>2012-03-05T19:42:17Z</date>
+			<date>2012-03-12T19:35:40Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -34,146 +32,36 @@
 			<key>filename</key>
 			<string>scripts/common.js</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T14:06:04Z</date>
+			<date>2012-03-12T19:35:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>scripts/logon.js</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T14:04:23Z</date>
+			<date>2012-03-12T19:35:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>scripts/list.js</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T14:06:04Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2012-03-12T19:35:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>scripts/detail.js</string>
 			<key>lastUsed</key>
-			<date>2012-03-06T13:41:40Z</date>
+			<date>2012-03-12T19:35:42Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict>
-		<key>index.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>9</integer>
-				<key>line</key>
-				<integer>52</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>42</integer>
-		</dict>
-		<key>scripts/common.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>44</integer>
-				<key>line</key>
-				<integer>14</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>scripts/detail.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>17</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>scripts/jquery-1.7.1.min.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>32</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>scripts/list.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>scripts/logon.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>40</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>29</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>39</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>40</integer>
-			</dict>
-		</dict>
-	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>scripts/jquery-1.7.1.min.js</string>
-		<string>index.html</string>
-		<string>scripts/common.js</string>
-		<string>scripts/logon.js</string>
-		<string>scripts/list.js</string>
-		<string>scripts/detail.js</string>
-	</array>
+	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{323, 115}, {1205, 825}}</string>
+	<string>{{161, 60}, {1205, 818}}</string>
 </dict>
 </plist>
